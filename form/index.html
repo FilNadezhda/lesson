@@ -6,20 +6,20 @@
    <title>Document</title>
 </head>
   <body>
-    <p><b>Имя:</b><br>
-     <input type="text" name="Имя" placeholder="Укажите имя" required>
-    </p>
-    <p><b>Телефон:</b><br>
-     <p><input type="tel" placeholder="номер телефона" required>
-     </p>
-    <p><b>EMAIL:</b><br>
-    <input type="email" placeholder="email">
-    </p>       
-    <p><b>Пароль:</b><br>
-    <input type="password" value required>
-    </p>
+   <form action="signin" method="get" autocomplete="on"></form>
+    <label for="name">Введите имя</label>
+    <input type="text" id="name" placeholder="Имя">
+   <form action="signin" method="get" autocomplete="on"></form><br>
+    <label for="tel">Телефон</label>
+    <input type="tel" id="tel" placeholder="номер телефона" required>
+   <form action="signin" method="get"></form><br>
+    <label for="email">EMAIL</label>
+    <input type="email" id="email" placeholder="email">   
+  <form action="signin" method="get"></form><br>
+     <label for="password">Пароль</label>
+     <input type="password" id="password">  
   <div>
-    <p><b>Какой сегодня день:</b><br>
+    <p><b>Какой сегодня день:</b><br></p>
     <input type="radio" name="answer" value="01">Понедельник <br>
     <input type="radio" name="answer" value="02">Вторник <br>
     <input type="radio" name="answer" value="03">Среда <br>
@@ -28,7 +28,6 @@
      <p><b>Для ввода длинного текста</b></p>
      <textarea cols="70" rows="20" name="text"></textarea>
      <p><input type="submit" value="Отправить">
-    <input type="reset" value="Очистить">
-    </p>            
-  </body>
-<html>
+     <input type="reset" value="Очистить"></p>
+  </body>          
+</html> 
